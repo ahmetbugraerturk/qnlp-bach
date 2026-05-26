@@ -1,0 +1,17 @@
+{
+    "config_file": null,
+    "data_source": "bach",
+    "num_train": 10,
+    "num_val": 50,
+    "num_test": 100,
+    "seed": 42,
+    "embed_dim": 16,
+    "hidden_dim": 32,
+    "epochs": 100,
+    "learning_rate": 0.01,
+    "dropout": 0.2,
+    "weight_decay": 0.0001,
+    "threshold": 0.5,
+    "batch_size": 16,
+    "output_dir": "output_classical/job_1094578"
+}

@@ -1,6 +1,7 @@
 # VALAR
 output/
 setup.sh
+_dont_submit/
 
 # Model Weights
 *.pt

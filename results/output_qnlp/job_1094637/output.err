@@ -1,0 +1,2 @@
+/var/spool/slurm/job1094637/slurm_script: line 58: 3974184 Killed                  $ENV -u qnlp.py --data_source $DATA_SOURCE --output_dir "$OUT" --num_train $TRAIN_SIZE --num_val $VAL_SIZE --num_test $TEST_SIZE --n_layers $LAYERS --epochs 100 --learning_rate 0.1 --weight_decay 1e-4 --threshold 0.5 --seed $SEED
+slurmstepd: error: Detected 1 oom_kill event in StepId=1094637.batch. Some of the step tasks have been OOM Killed.

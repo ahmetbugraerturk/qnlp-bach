@@ -1,0 +1,14 @@
+{
+    "config_file": null,
+    "data_source": "sst2",
+    "num_train": 50,
+    "num_val": 50,
+    "num_test": 100,
+    "seed": 2026,
+    "n_layers": 1,
+    "epochs": 100,
+    "learning_rate": 0.1,
+    "weight_decay": 0.0001,
+    "threshold": 0.5,
+    "output_dir": "output_qnlp/job_1094713"
+}
