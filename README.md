@@ -653,19 +653,6 @@ The project investigates:
 
 ---
 
-# Future Improvements
-
-Potential future extensions include:
-
-* Real quantum hardware execution
-* Tensor-network circuit compression
-* Transformer-based classical baselines
-* Improved diagram ansätze
-* Hybrid quantum-classical embeddings
-* Longer sentence handling
-
----
-
 # License
 
 This project was developed for academic and research purposes as part of the PHYS 450 Quantum Computing course.
