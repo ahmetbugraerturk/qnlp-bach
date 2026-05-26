@@ -1,0 +1,30 @@
+========================================
+Job ID : 1094636
+Start  : Fri May 22 02:38:00 +03 2026
+GPU    : Tesla T4
+========================================
+--- Quantum QNLP Script starting ---
+[*] Configuration saved to: output_qnlp/job_1094636/config.json
+========================================
+DATA SOURCE SELECTION : BACH
+TRAINING SIZE         : 500
+VALIDATION SIZE       : 50
+TEST SIZE             : 100
+WEIGHT DECAY          : 0.0001
+CLASSIFICATION THRESHOLD : 0.5
+QUANTUM LAYERS        : 1
+========================================
+
+--- Preparing Dataset ---
+Generating DisCoCat grammar diagrams...
+Generating quantum circuits (IQP Ansatz)...
+
+--- Starting Quantum Model Training (Epochs: 100) ---
+========================================
+End    : Fri May 22 02:40:51 +03 2026
+Output : output_qnlp/job_1094636
+total 2.0K
+-rw-r--r-- 1 aerturk23 hpcusers 293 May 22 02:38 config.json
+-rw-r--r-- 1 aerturk23 hpcusers 313 May 22 02:37 output.err
+-rw-r--r-- 1 aerturk23 hpcusers 816 May 22 02:37 output.log
+========================================

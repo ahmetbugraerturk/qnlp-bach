@@ -1,0 +1,149 @@
+========================================
+Job ID : 1094729
+Start  : Fri May 22 03:43:16 +03 2026
+GPU    : Tesla T4
+========================================
+--- Classical LSTM Script starting ---
+[*] Configuration saved to: output_classical/job_1094729/config.json
+========================================
+MODEL                 : CLASSICAL LSTM
+DATA SOURCE SELECTION : SST2
+TRAINING SIZE         : 100
+VALIDATION SIZE       : 50
+TEST SIZE             : 100
+WEIGHT DECAY          : 0.0001
+DROPOUT RATE          : 0.5
+CLASSIFICATION THRESHOLD : 0.5
+BATCH SIZE            : 16
+EMBED/HIDDEN DIMS     : 16 / 32
+========================================
+
+--- Preparing Dataset and Tokenization ---
+[*] REAL DATASET SIZES -> Train: 100 | Val: 50 | Test: 100
+--- Initializing Classical Model ---
+
+--- Starting Classical LSTM Training (Epochs: 100) ---
+Ep 01/100 | TR Loss: 0.6389 Acc: 0.69 | VAL Loss: 0.6487 Acc: 0.66 *(Best)*
+Ep 02/100 | TR Loss: 0.6227 Acc: 0.69 | VAL Loss: 0.6319 Acc: 0.66 *(Best)*
+Ep 03/100 | TR Loss: 0.5520 Acc: 0.70 | VAL Loss: 0.5987 Acc: 0.66 *(Best)*
+Ep 04/100 | TR Loss: 0.4482 Acc: 0.82 | VAL Loss: 0.5855 Acc: 0.66 *(Best)*
+Ep 05/100 | TR Loss: 0.3311 Acc: 0.87 | VAL Loss: 0.6576 Acc: 0.66 
+Ep 06/100 | TR Loss: 0.2068 Acc: 0.91 | VAL Loss: 0.8765 Acc: 0.58 
+Ep 07/100 | TR Loss: 0.1229 Acc: 0.96 | VAL Loss: 1.0991 Acc: 0.58 
+Ep 08/100 | TR Loss: 0.0919 Acc: 0.97 | VAL Loss: 1.1664 Acc: 0.56 
+Ep 09/100 | TR Loss: 0.0564 Acc: 0.98 | VAL Loss: 1.1956 Acc: 0.56 
+Ep 10/100 | TR Loss: 0.0176 Acc: 1.00 | VAL Loss: 1.3390 Acc: 0.56 
+Ep 11/100 | TR Loss: 0.0099 Acc: 1.00 | VAL Loss: 1.4973 Acc: 0.54 
+Ep 12/100 | TR Loss: 0.0049 Acc: 1.00 | VAL Loss: 1.6355 Acc: 0.56 
+Ep 13/100 | TR Loss: 0.0033 Acc: 1.00 | VAL Loss: 1.7539 Acc: 0.54 
+Ep 14/100 | TR Loss: 0.0019 Acc: 1.00 | VAL Loss: 1.8431 Acc: 0.54 
+Ep 15/100 | TR Loss: 0.0015 Acc: 1.00 | VAL Loss: 1.8910 Acc: 0.54 
+Ep 16/100 | TR Loss: 0.0015 Acc: 1.00 | VAL Loss: 1.9138 Acc: 0.54 
+Ep 17/100 | TR Loss: 0.0011 Acc: 1.00 | VAL Loss: 1.9233 Acc: 0.56 
+Ep 18/100 | TR Loss: 0.0011 Acc: 1.00 | VAL Loss: 1.9170 Acc: 0.56 
+Ep 19/100 | TR Loss: 0.0010 Acc: 1.00 | VAL Loss: 1.9053 Acc: 0.58 
+Ep 20/100 | TR Loss: 0.0010 Acc: 1.00 | VAL Loss: 1.8925 Acc: 0.58 
+Ep 21/100 | TR Loss: 0.0009 Acc: 1.00 | VAL Loss: 1.8802 Acc: 0.58 
+Ep 22/100 | TR Loss: 0.0009 Acc: 1.00 | VAL Loss: 1.8670 Acc: 0.58 
+Ep 23/100 | TR Loss: 0.0008 Acc: 1.00 | VAL Loss: 1.8526 Acc: 0.58 
+Ep 24/100 | TR Loss: 0.0008 Acc: 1.00 | VAL Loss: 1.8334 Acc: 0.58 
+Ep 25/100 | TR Loss: 0.0008 Acc: 1.00 | VAL Loss: 1.8112 Acc: 0.58 
+Ep 26/100 | TR Loss: 0.0009 Acc: 1.00 | VAL Loss: 1.7892 Acc: 0.58 
+Ep 27/100 | TR Loss: 0.0008 Acc: 1.00 | VAL Loss: 1.7722 Acc: 0.54 
+Ep 28/100 | TR Loss: 0.0007 Acc: 1.00 | VAL Loss: 1.7525 Acc: 0.54 
+Ep 29/100 | TR Loss: 0.0007 Acc: 1.00 | VAL Loss: 1.7412 Acc: 0.56 
+Ep 30/100 | TR Loss: 0.0007 Acc: 1.00 | VAL Loss: 1.7303 Acc: 0.56 
+Ep 31/100 | TR Loss: 0.0007 Acc: 1.00 | VAL Loss: 1.7137 Acc: 0.56 
+Ep 32/100 | TR Loss: 0.0007 Acc: 1.00 | VAL Loss: 1.6937 Acc: 0.56 
+Ep 33/100 | TR Loss: 0.0007 Acc: 1.00 | VAL Loss: 1.6755 Acc: 0.56 
+Ep 34/100 | TR Loss: 0.0007 Acc: 1.00 | VAL Loss: 1.6534 Acc: 0.56 
+Ep 35/100 | TR Loss: 0.0007 Acc: 1.00 | VAL Loss: 1.6344 Acc: 0.58 
+Ep 36/100 | TR Loss: 0.0006 Acc: 1.00 | VAL Loss: 1.6142 Acc: 0.58 
+Ep 37/100 | TR Loss: 0.0006 Acc: 1.00 | VAL Loss: 1.5844 Acc: 0.58 
+Ep 38/100 | TR Loss: 0.0006 Acc: 1.00 | VAL Loss: 1.5539 Acc: 0.56 
+Ep 39/100 | TR Loss: 0.0006 Acc: 1.00 | VAL Loss: 1.5338 Acc: 0.56 
+Ep 40/100 | TR Loss: 0.0006 Acc: 1.00 | VAL Loss: 1.5144 Acc: 0.56 
+Ep 41/100 | TR Loss: 0.0006 Acc: 1.00 | VAL Loss: 1.4938 Acc: 0.56 
+Ep 42/100 | TR Loss: 0.0005 Acc: 1.00 | VAL Loss: 1.4675 Acc: 0.56 
+Ep 43/100 | TR Loss: 0.0005 Acc: 1.00 | VAL Loss: 1.4420 Acc: 0.58 
+Ep 44/100 | TR Loss: 0.0005 Acc: 1.00 | VAL Loss: 1.4190 Acc: 0.58 
+Ep 45/100 | TR Loss: 0.0005 Acc: 1.00 | VAL Loss: 1.3946 Acc: 0.56 
+Ep 46/100 | TR Loss: 0.0005 Acc: 1.00 | VAL Loss: 1.3761 Acc: 0.56 
+Ep 47/100 | TR Loss: 0.0005 Acc: 1.00 | VAL Loss: 1.3638 Acc: 0.56 
+Ep 48/100 | TR Loss: 0.0005 Acc: 1.00 | VAL Loss: 1.3521 Acc: 0.56 
+Ep 49/100 | TR Loss: 0.0005 Acc: 1.00 | VAL Loss: 1.3438 Acc: 0.56 
+Ep 50/100 | TR Loss: 0.0005 Acc: 1.00 | VAL Loss: 1.3367 Acc: 0.56 
+Ep 51/100 | TR Loss: 0.0005 Acc: 1.00 | VAL Loss: 1.3295 Acc: 0.58 
+Ep 52/100 | TR Loss: 0.0004 Acc: 1.00 | VAL Loss: 1.3281 Acc: 0.62 
+Ep 53/100 | TR Loss: 0.0004 Acc: 1.00 | VAL Loss: 1.3300 Acc: 0.64 
+Ep 54/100 | TR Loss: 0.0005 Acc: 1.00 | VAL Loss: 1.3365 Acc: 0.64 
+Ep 55/100 | TR Loss: 0.0005 Acc: 1.00 | VAL Loss: 1.3415 Acc: 0.64 
+Ep 56/100 | TR Loss: 0.0004 Acc: 1.00 | VAL Loss: 1.3499 Acc: 0.64 
+Ep 57/100 | TR Loss: 0.0004 Acc: 1.00 | VAL Loss: 1.3607 Acc: 0.62 
+Ep 58/100 | TR Loss: 0.0004 Acc: 1.00 | VAL Loss: 1.3661 Acc: 0.60 
+Ep 59/100 | TR Loss: 0.0004 Acc: 1.00 | VAL Loss: 1.3722 Acc: 0.60 
+Ep 60/100 | TR Loss: 0.0004 Acc: 1.00 | VAL Loss: 1.3624 Acc: 0.60 
+Ep 61/100 | TR Loss: 0.0004 Acc: 1.00 | VAL Loss: 1.3740 Acc: 0.60 
+Ep 62/100 | TR Loss: 0.0004 Acc: 1.00 | VAL Loss: 1.3917 Acc: 0.60 
+Ep 63/100 | TR Loss: 0.0004 Acc: 1.00 | VAL Loss: 1.4186 Acc: 0.64 
+Ep 64/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.4493 Acc: 0.64 
+Ep 65/100 | TR Loss: 0.0004 Acc: 1.00 | VAL Loss: 1.4429 Acc: 0.64 
+Ep 66/100 | TR Loss: 0.0004 Acc: 1.00 | VAL Loss: 1.4094 Acc: 0.62 
+Ep 67/100 | TR Loss: 0.0004 Acc: 1.00 | VAL Loss: 1.4070 Acc: 0.62 
+Ep 68/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.4081 Acc: 0.62 
+Ep 69/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.4427 Acc: 0.64 
+Ep 70/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.4668 Acc: 0.64 
+Ep 71/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.4671 Acc: 0.64 
+Ep 72/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.4679 Acc: 0.64 
+Ep 73/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.4676 Acc: 0.64 
+Ep 74/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.4747 Acc: 0.64 
+Ep 75/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.4863 Acc: 0.64 
+Ep 76/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.5034 Acc: 0.64 
+Ep 77/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.5258 Acc: 0.64 
+Ep 78/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.5130 Acc: 0.64 
+Ep 79/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.4984 Acc: 0.64 
+Ep 80/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.4915 Acc: 0.64 
+Ep 81/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.4693 Acc: 0.64 
+Ep 82/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.4594 Acc: 0.64 
+Ep 83/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.5149 Acc: 0.62 
+Ep 84/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.5754 Acc: 0.62 
+Ep 85/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.5881 Acc: 0.62 
+Ep 86/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.5607 Acc: 0.62 
+Ep 87/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.5218 Acc: 0.62 
+Ep 88/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.5607 Acc: 0.62 
+Ep 89/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.6004 Acc: 0.62 
+Ep 90/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.6506 Acc: 0.62 
+Ep 91/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.6568 Acc: 0.62 
+Ep 92/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.5994 Acc: 0.62 
+Ep 93/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.5698 Acc: 0.62 
+Ep 94/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.5724 Acc: 0.62 
+Ep 95/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.6356 Acc: 0.62 
+Ep 96/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.6610 Acc: 0.62 
+Ep 97/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.6459 Acc: 0.62 
+Ep 98/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.6154 Acc: 0.62 
+Ep 99/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.6635 Acc: 0.62 
+Ep 100/100 | TR Loss: 0.0003 Acc: 1.00 | VAL Loss: 1.7581 Acc: 0.62 
+
+==================================================
+BEST MODEL TEST SET EVALUATION (MULTIPLE THRESHOLDS)
+==================================================
+Threshold  | Acc      | Prec     | Rec      | F1      
+--------------------------------------------------
+0.30       | 0.60     | 0.60     | 1.00     | 0.75     
+0.40       | 0.62     | 0.62     | 0.97     | 0.75     
+0.50       | 0.64     | 0.65     | 0.87     | 0.74     <-- (Arg)
+0.60       | 0.61     | 0.66     | 0.73     | 0.69     
+0.70       | 0.61     | 0.69     | 0.63     | 0.66     
+==================================================
+
+========================================
+End    : Fri May 22 03:43:38 +03 2026
+Output : output_classical/job_1094729
+total 147K
+-rw-r--r-- 1 aerturk23 hpcusers  59K May 22  2026 best_model.pth
+-rw-r--r-- 1 aerturk23 hpcusers  365 May 22 03:43 config.json
+-rw-r--r-- 1 aerturk23 hpcusers  13K May 22 03:43 history.json
+-rw-r--r-- 1 aerturk23 hpcusers  966 May 22 03:43 output.err
+-rw-r--r-- 1 aerturk23 hpcusers 8.2K May 22 03:43 output.log
+-rw-r--r-- 1 aerturk23 hpcusers  65K May 22 03:43 training_metrics.png
+========================================
